@@ -4,8 +4,8 @@ import FreeShiping from "./FreeShiping";
 const Hero = () => {
   return (
      <div className="back">
-      <div className=" flex gap-16 pt-16">
-        <div className=" pt-16 ml-24 flex flex-col gap-4">
+      <div className=" flex gap-16 pt-16 w-full">
+        <div className=" pt-16 ml-24 flex flex-col w-[40%] gap-4">
           <h1 className=" text-[56px]  font-bold text-white leading-[4.5rem]">
             BEAUTY <span className=" font-normal">And</span> WELLNESS{" "}
             <span className=" font-normal">Business</span>
@@ -24,7 +24,9 @@ const Hero = () => {
           </div>
           <p className=" text-[22px] font-medium text-white mt-5">Trusted by +1400 happy users</p>
         </div>
+        <div className=" bg-[#d86928a4] py-5 rounded-2xl pr-12 pl-6 w-1/2">
         <img className="" src={main} alt="" />
+        </div>
       </div>
       <div className=" mt-[5rem]">
       <FreeShiping />
